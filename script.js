@@ -12,6 +12,7 @@ btnNxt.onclick = function(){
     console.log('btnNxt', page + 1);
     buildQuiz(page + 1);
 };
+
 function loadQuestions(){
     var a = new XMLHttpRequest();
     a.open("GET", "https://api.myjson.com/bins/4dq2i", true);
